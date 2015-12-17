@@ -21,11 +21,11 @@ Latest Builds: https://github.com/royrusso/elasticsearch-HQ
     <title>Elastic HQ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
 
-    
+
+
     <link href="css/all.min.css" rel="stylesheet" media="screen">
-    
+
 
 </head>
 <body>
@@ -42,6 +42,7 @@ Latest Builds: https://github.com/royrusso/elasticsearch-HQ
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
+                    <!--
                     <li>
                         <form class="form-search" style="margin:0;padding: 0;" id="connform_top">
                             <div class="input-prepend input-append" style="width: 350px;padding-top: 5px;">
@@ -49,11 +50,12 @@ Latest Builds: https://github.com/royrusso/elasticsearch-HQ
                                 <input type="text" placeholder="Enter http://domain:port" name="connectionURL"
                                        style="width: 220px;"
                                        id="connectionURL">
-                                <button class="btn btn-info" type="button" id="connectButton">Connect</button>
+                                <button class="btn btn-info" type="button" id="connectButton" style="visibility: hidden;">Connect</button>
                             </div>
                         </form>
 
                     </li>
+                  -->
                     <li>
                         <div id="ajaxindicator" style="padding-top:8px;">
                             <i class="icon-spinner icon-spin icon-large" style="color: #349BB9;"></i>
@@ -66,17 +68,16 @@ Latest Builds: https://github.com/royrusso/elasticsearch-HQ
                 <ul class="nav pull-right">
                     <!--                    <li><a style="visibility: hidden;" id="settingsButton" href="#settings" rel="tipRight" data-placement="bottom" data-title="Current Settings"><i
                                                 class="icon-cogs icon-large"></i> Settings</a></li>-->
-                    <li><a href="#viewsettings" rel="tipRight" id="settings" style="visibility: visible;"
+                    <li><a href="#viewsettings" rel="tipRight" id="settings" style="visibility: hidden;"
                            data-placement="bottom" data-title="Personalize ElasticHQ"><i
                             class="icon-cog icon-large"></i> My Settings</a></li>
-                    <li><a href="http://www.elastichq.org/support.html" target="_blank" rel="tipRight"
+                    <li><a href="http://www.elastichq.org/support.html" target="_blank" rel="tipRight" style="visibility: hidden;"
                            data-placement="bottom" data-title="Have a question?"><i
                             class="icon-comments-alt icon-large"></i> Get Help</a></li>
-                    <li><a href="https://github.com/royrusso/elasticsearch-HQ" target="_blank" rel="tipRight"
+                    <li><a href="https://github.com/royrusso/elasticsearch-HQ" target="_blank" rel="tipRight" style="visibility: hidden;"
                            data-placement="bottom" data-title="Thank you for your support!"><i
                             class="icon-github icon-large"></i> Star us on GitHub</a></li>
-                    <li><a href="http://www.elastichq.org/blog" target="_blank" rel="tipRight" id="blog"
-                           style="visibility: visible;"
+                    <li><a href="http://www.elastichq.org/blog" target="_blank" rel="tipRight" id="blog" style="visibility: hidden;"
                            data-placement="bottom" data-title="Tips and Hints"><i
                             class="icon-bullhorn icon-large"></i> Blog</a></li>
                 </ul>
